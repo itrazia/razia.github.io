@@ -3,24 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Website</title>
+  <title>Dr. [Your Name] - Senior Lecturer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
       color: #333;
     }
     header {
+      background-color: #333;
+      color: #fff;
       text-align: center;
-      margin-bottom: 40px;
+      padding: 20px 0;
     }
-    h1 {
+    header h1 {
+      margin: 0;
       font-size: 2.5em;
-      margin-bottom: 0;
     }
-    p {
+    header p {
       font-size: 1.2em;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 40px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .profile-image {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+    .subsection {
+      margin-top: 20px;
+    }
+    .subsection h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .subsection p {
+      font-size: 1.1em;
       line-height: 1.6;
     }
   </style>
@@ -28,19 +85,79 @@
 <body>
 
 <header>
-  <h1>Welcome to My Personal Website</h1>
-  <p>This is a simple page to get started with GitHub Pages.</p>
+  <h1>Dr. [Your Name]</h1>
+  <p>Senior Lecturer in [Your Field] at [University Name], UK</p>
 </header>
 
-<section>
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
   <h2>About Me</h2>
-  <p>I'm a passionate learner and web enthusiast.</p>
+  <img src="your-image.jpg" alt="Dr. [Your Name]" class="profile-image">
+  <p>
+    I am a Senior Lecturer in [Your Field] at [University Name], UK. I specialize in [mention your main expertise/field of interest]. 
+    I have a passion for teaching and research, focusing on [your research interests]. 
+    With [X] years of experience in higher education, I strive to foster an engaging learning environment for my students.
+  </p>
+  
+  <div class="subsection">
+    <h3>Education</h3>
+    <p>I hold a [PhD/Masters] in [Your Degree] from [University Name], specializing in [specialization].</p>
+  </div>
+  
+  <div class="subsection">
+    <h3>Teaching Experience</h3>
+    <p>I have taught courses such as [Course 1], [Course 2], and [Course 3] at [University Name]. My teaching approach focuses on [approach description].</p>
+  </div>
 </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>You can reach me via email: your.email@example.com</p>
+<section id="research">
+  <h2>Research Interests</h2>
+  <p>
+    My research focuses on [briefly describe your main research interests]. I am particularly interested in [specific topics or problems you focus on]. 
+    I have worked on projects related to [mention key projects or research themes]. My aim is to contribute to [broader academic goals/impacts of your research].
+  </p>
+  
+  <div class="subsection">
+    <h3>Current Projects</h3>
+    <p>I am currently working on [Project 1] and [Project 2]. These projects aim to explore [brief description].</p>
+  </div>
+  
+  <div class="subsection">
+    <h3>Future Research Goals</h3>
+    <p>In the future, I plan to expand my research in the areas of [future research topics], focusing on [specific research objectives].</p>
+  </div>
 </section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li><strong>Title of Publication 1</strong> - Journal/Conference Name (Year)</li>
+    <li><strong>Title of Publication 2</strong> - Journal/Conference Name (Year)</li>
+    <li><strong>Title of Publication 3</strong> - Journal/Conference Name (Year)</li>
+    <!-- Add more publications as needed -->
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:your.email@university.ac.uk">your.email@university.ac.uk</a><br>
+    Phone: +44 (0) [Your Phone Number]<br>
+    Office: [Your Office Location]<br>
+    <br>
+    Follow me on LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn Profile</a>
+  </p>
+</section>
+
+<footer>
+  <p>&copy; [Current Year] Dr. [Your Name]. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
